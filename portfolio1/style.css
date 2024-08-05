@@ -1,0 +1,128 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+nav{
+    background-color: transparent;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 5px;
+    color:brown;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    text-shadow: 2px 3px 4px black;
+    text-decoration: underline;
+}
+video{
+    height: 600px;
+    width:100%;
+    object-fit: cover;
+}
+span{
+    color: blue;
+}
+#home{
+    height: 700px;
+    display: flex;
+flex-direction: column;}
+#home::before{
+content:"";
+background-image: url(https://tse4.mm.bing.net/th?id=OIP.o3J5lp2AuksSOfbE74LMkQHaEK&pid=Api&P=0&h=180);
+height: 700%;
+background-size: cover;
+}
+.main{
+    border:2px inset blueviolet;
+padding: 5px;
+display: flex;
+position: absolute;
+height: 50px;
+margin-left: 60%;
+margin-top: 30%;
+
+}
+
+
+h2
+{
+    border: 2px inset blueviolet;
+    padding :5px;
+    display: flex;
+    position: absolute;
+    left:80%;
+    margin-top: 30%;
+    
+}
+h2:hover{
+    text-shadow: 2px 34px 6px brown;
+    text-decoration: underline;
+}
+
+h3{
+    color: red;
+    background-color: yellow;
+    font-style: italic;
+    text-align: center;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+
+}
+.gallery{
+    
+    box-shadow: 1px 2px 3px blueviolet;
+    margin: 20px;
+}
+.gallery img{
+    
+    width:300px;
+    margin: 5px;
+    margin-left: 50px;
+    padding: 5px;
+}
+.row{
+    display: flex;
+    margin-top: 5px;
+
+
+}
+.box{
+    width: 900px;
+    height: 700px;
+    border :10px ridge black;
+    margin: 5px;
+    background:linear-gradient(to top,blue,red);
+    background-size: 100% 200%;
+    transform: 0.01s;
+}
+.box:hover{
+    background-position: right bottom;
+}
+.box img{
+    width: 300px;
+}
+.box h5{
+    color: aqua;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: black;
+}

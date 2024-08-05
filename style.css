@@ -1,0 +1,33 @@
+*{background-color:cyan ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    #head{
+    color:rgba(#ff000027, green, blue, alpha);
+}
+
+.para{
+     font-style: italic;
+    color:brown;
+    font-size :30px;
+}
+
+p{color: crimson;}
+/*gruping selector*/
+
+ul,h3,h4{
+    color: blueviolet;
+    font-size: 30 px;
+}
+/*pesudo  selector*/
+
+#head:hover{
+    background-color:chartreuse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+/*pesudo element selector*/
+.para::first-line{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:blue;
+}
